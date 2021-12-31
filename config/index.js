@@ -27,7 +27,7 @@ module.exports = (app) => {
         process.env.ORIGIN ||
         "http://localhost:3000" ||
         "http://localhost:3001" ||
-        "http://localhost:3002",
+        "https://pokegotchi-challenge.herokuapp.com",
     })
   );
 
