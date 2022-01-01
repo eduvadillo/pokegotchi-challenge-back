@@ -101,6 +101,6 @@ router.post("/mygames", (req, res, next) => {
     });
 });
 
-router.use("/auth", authRoutes);
+router.use("/", authRoutes);
 
 module.exports = router;
