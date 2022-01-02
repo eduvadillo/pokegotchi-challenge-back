@@ -23,11 +23,7 @@ module.exports = (app) => {
   app.use(
     cors({
       credentials: true,
-      origin:
-        process.env.ORIGIN ||
-        "http://localhost:3000" ||
-        "http://localhost:3001" ||
-        "https://pokegotchi-challenge.herokuapp.com",
+      origin: process.env.ORIGIN || "https://pokegotchi-challenge.herokuapp.com",
     })
   );
 
